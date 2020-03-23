@@ -33,11 +33,22 @@
         $overlay.hide();
     });
 
+    // Banner slider
+    $('.bx_banner_slider_content').owlCarousel({
+        loop: true,
+        autoplay: false,
+        autoplayTimeout: 2000,
+        smartSpeed:800,
+        autoplayHoverPause: true,
+        pagination:true,
+        autoHeight:true,
+        items: 1
+    });
     // Popular author slider
     $('.bx_author_book_content').owlCarousel({
         loop: true,
-        autoplay: false,
-        autoplayTimeout: 1000,
+        autoplay: true,
+        autoplayTimeout: 1500,
         autoplayHoverPause: true,
         pagination:true,
         responsiveClass: true,
@@ -60,7 +71,7 @@
     // Sponsor slider
     $('.bx_sponsor_content').owlCarousel({
         loop: true,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 1000,
         autoplayHoverPause: true,
         pagination:false,
