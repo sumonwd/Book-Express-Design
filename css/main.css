@@ -303,26 +303,29 @@ Style for Header
 
 /* Css for Banner Style */
 
-.bx_banner .bx_banner_slider_content{
+.bx_banner .bx_banner_slider_content {
     width: 100%;
-    height: 320px;
-    float: left;
+    height: 300px;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0px 2px 1px 2px rgba(131, 141, 156, .3);
 }
-.bx_banner .bx_banner_slider_item{
+
+.bx_banner .bx_banner_slider_item {
     width: 100%;
     float: left;
 }
-.bx_banner .bx_banner_slider_content img{
+
+.bx_banner .bx_banner_slider_content img {
     width: 100%;
     height: 100%;
 }
+
 .bx_banner .bx_banner_discount_content {
     width: 100%;
     height: 100%;
 }
+
 .bx_banner .bx_banner_discount_item {
     width: 100%;
     height: 100%;
@@ -339,7 +342,8 @@ Style for Header
     transform: translate(-50%, -50%);
     z-index: 9;
 }
-.bx_banner .bx_banner_discount_text p{
+
+.bx_banner .bx_banner_discount_text p {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -347,23 +351,26 @@ Style for Header
     text-align: center;
 }
 
-.bx_banner .bx_banner_discount_item.text_two .bx_banner_discount_text p{
+.bx_banner .bx_banner_discount_item.text_two .bx_banner_discount_text p {
     color: #fe9901;
 }
 
-.bx_banner .bx_banner_discount_image{
-   position: absolute;
-   bottom: 0;
-   left: 0;
+.bx_banner .bx_banner_discount_image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
-.bx_banner .bx_banner_discount_item.text_two .bx_banner_discount_image{
+
+.bx_banner .bx_banner_discount_item.text_two .bx_banner_discount_image {
     left: auto;
     right: 0;
- }
-.bx_banner .bx_banner_discount_image img{
-   width: 160px;
-   height: 90px;
 }
+
+.bx_banner .bx_banner_discount_image img {
+    width: 160px;
+    height: 90px;
+}
+
 .bx_banner .owl-dots {
     width: 100%;
     position: absolute;
@@ -383,19 +390,12 @@ Style for Header
 .bx_banner .owl-theme .owl-dots .owl-dot.active {
     border: none;
 }
+
 /* End Banner Style */
 /* Css For Popular Author  */
 .bx_popular_author .bx_author_book_item {
     padding: 0px 25px;
     overflow: hidden;
-}
-
-.bx_popular_author .bx_author_book_item:first-child {
-    padding: 0px 25px 0px 0px;
-}
-
-.bx_popular_author .bx_author_book_item:last-child {
-    padding: 0px 0px 0px 25px;
 }
 
 .bx_popular_author .bx_author_book_image_content {
@@ -620,6 +620,7 @@ footer .bx_footer {
 }
 
 .bx_footer .bx_footer_all_link ul li a {
+    display: block;
     font-size: 16px;
     color: #4f5c5f;
     font-weight: 400;
@@ -686,6 +687,12 @@ footer .bx_footer_copyright p span {
         font-size: 14px;
     }
 
+    /* Banner */
+
+    .bx_banner .bx_banner_slider_content {
+        height: 250px;
+    }
+
     /* Popular author */
     .bx_section_headding>h3 {
         font-size: 20px;
@@ -695,6 +702,11 @@ footer .bx_footer_copyright p span {
 
     .bx_popular_author .bx_author_book_text_content {
         padding: 30px 0px 0px 0px;
+    }
+
+    /* Call To Action */
+    .bx_call_to_action .bx_call_to_action_content {
+        height: 180px;
     }
 
     /* footer */
@@ -732,9 +744,7 @@ footer .bx_footer_copyright p span {
         height: 100%;
         background: #fff;
         z-index: 998;
-        -webkit-transform: translateX(-100%);
-        -ms-transform: translateX(-100%);
-        transform: translateX(-100%);
+        transform: translateX(-160%);
         -webkit-transition: .3s;
         -o-transition: .3s;
         transition: .3s;
@@ -758,6 +768,17 @@ footer .bx_footer_copyright p span {
     .bx_main_header .bx_navbar_right_content .bx_login {
         padding: 8px 15px;
 
+    }
+
+    /* Banner */
+    .bx_banner .bx_banner_slider_content {
+        height: 220px;
+
+    }
+
+    .bx_banner .bx_banner_discount_content {
+        width: 100%;
+        height: 200px;
     }
 
     /* slider */
@@ -791,6 +812,11 @@ footer .bx_footer_copyright p span {
 
     .bx_popular_author .bx_author_book_text_content {
         padding: 25px 0px 0px 0px;
+    }
+
+    /* Call To Action */
+    .bx_call_to_action .bx_call_to_action_content {
+        height: 180px;
     }
 
     /* footer */
