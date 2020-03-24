@@ -41,7 +41,6 @@
         smartSpeed:800,
         autoplayHoverPause: true,
         pagination:true,
-        autoHeight:true,
         items: 1
     });
     // Popular author slider
