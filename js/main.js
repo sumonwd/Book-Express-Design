@@ -46,11 +46,12 @@
     // Popular author slider
     $('.bx_author_book_content').owlCarousel({
         loop: true,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 1500,
         autoplayHoverPause: true,
         pagination:true,
         responsiveClass: true,
+        margin: 20,
         responsive: {
             0: {
                 items: 1,
@@ -61,9 +62,14 @@
                 nav: false
             },
             1000: {
-                items: 6,
+                items: 5,
                 nav: false,
                 loop: true
+            },
+            1367: {
+                items: 6,
+                nav: false,
+                loop: false
             }
         }
     });
